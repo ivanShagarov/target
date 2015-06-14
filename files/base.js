@@ -21,8 +21,8 @@
     return i
 }({
     1: [function (e) {
-        e("../libs/jquery.js"), e("../util/util.js")
-    }, {"../libs/jquery.js": 2, "../util/util.js": 3}],
+        e("../files/jquery.min.js"), e("../util/util.js")
+    }, {"../files/jquery.min.js": 2, "../util/util.js": 3}],
     2: [function () {/*! jQuery v@1.8.0 jquery.com | jquery.org/license */
         !function (e, t) {
             function n(e) {
@@ -1064,7 +1064,7 @@
                 var r = "on" + t;
                 e.detachEvent && ("undefined" == typeof e[r] && (e[r] = null), e.detachEvent(r, n))
             }, K.Event = function (e, t) {
-                return this instanceof K.Event ? (e && e.type ? (this.originalEvent = e, this.type = e.type, this.isDefaultPrevented = e.defaultPrevented || e.returnValue === !1 || e.getPreventDefault && e.getPreventDefault() ? a : o) : this.type = e, t && K.extend(this, t), this.timeStamp = e && e.timeStamp || K.now(), this[K.expando] = !0, void 0) : new K.Event(e, t)
+                return this instanceof K.Event ? (e && e.type ? (this.originalEvent = e, this.type = e.type, this.isDefaultPrevented = e.defaultPrevented || e.getPreventDefault && e.getPreventDefault() ? a : o) : this.type = e, t && K.extend(this, t), this.timeStamp = e && e.timeStamp || K.now(), this[K.expando] = !0, void 0) : new K.Event(e, t)
             }, K.Event.prototype = {
                 preventDefault: function () {
                     this.isDefaultPrevented = a;
