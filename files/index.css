@@ -56,6 +56,12 @@
     bottom: auto;
     left: 7.7%
 }
+.topCaption2 h1, .topCaption2 h2, .topCaption2 .h1, .topCaption2 p {
+    position: absolute;
+    top: 34%;
+    bottom: auto;
+    left: 10%
+}
 
 #intro h1 {
     width: 30%;
